@@ -25,17 +25,18 @@ wrapper {
 }
 
 .img-info p {
-    padding: 0px 30px 20px font-family: arial;
-    font-size: 50px font-size: 16px color: padding: 30px 30px 20px;
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
     color: #111;
-    line-height: 24px;
+    line-height: 24px; 
 }
 
 .img-me {
     width: 100%;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
 .img-banner {
     display: block;
     width: 100%;
@@ -46,6 +47,7 @@ wrapper {
     width: 600px;
     margin:0 auto;
 }
+}
 
 .img-info h2 {
     padding: 20px 0px 0px;
@@ -54,5 +56,38 @@ wrapper {
  .img-info p {
     padding: 20px 0px 0px; 
 }
-.img-me
+.img-me {
     padding-top: 30px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+    }
+        
+    img-info {
+            width: 50%;
+            float: right;
+    }
+
+.img-info h2 {
+    padding:  20px 0px 0px 30px;
+}
+
+.img-info p {
+    padding:  20px 0px 0px 30px;
+}
+
+    .img-me {
+      padding-top: 0px;
+      width: 50px;
+      float: left;
+
+    }
+
+    .img-me {
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+}
+}
